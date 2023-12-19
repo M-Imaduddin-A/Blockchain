@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "getHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"gist-5a936a41891e4ee3e418ecb4f58bf36f/contracts/Cryptographic/sha256.sol": "HashExample"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"gist-5a936a41891e4ee3e418ecb4f58bf36f/contracts/Cryptographic/sha256.sol": {
+			"keccak256": "0x7d6a8642aafcd34f3988db4ed4bb045da99d3f432bad959ad9722549daf8c361",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e0de985500d6bf40b1927728cf297750faf518689a0497a5ee79edad071c9792",
+				"dweb:/ipfs/Qmcu2tpssa1Q9FZGrgKdiydQomXrrzToTLpA8x4N8H633D"
+			]
+		}
+	},
+	"version": 1
+}

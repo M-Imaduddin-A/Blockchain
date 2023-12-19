@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_phoneNumberId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_phoneNumber",
+						"type": "string"
+					}
+				],
+				"name": "addPhoneNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "city",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"gist-5a936a41891e4ee3e418ecb4f58bf36f/SmartWallet/PhoneNumber.sol": "MyContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"gist-5a936a41891e4ee3e418ecb4f58bf36f/SmartWallet/PhoneNumber.sol": {
+			"keccak256": "0xb727a0b447034bf95be1cb154d9b1267dcc84482a5113608cb9d33f4ebd6592a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://19c8ee44b384c71072fd341d5c77376998ad7e51cc9797b324e61660949c0d32",
+				"dweb:/ipfs/QmRLtFqkr2bjD6CJiRrxRzaC8WtdFCKDYGYGdPMpZnGinM"
+			]
+		}
+	},
+	"version": 1
+}

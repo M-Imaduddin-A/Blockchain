@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sha256",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "result",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Cryptographic/sha256.sol": "Test"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Cryptographic/sha256.sol": {
+			"keccak256": "0xf7466483a7339031f8e07cc078d5b3cc7cd84f07099920145d2d61c0251ad4c0",
+			"urls": [
+				"bzz-raw://505722ece859b6e9cdaebe844b71eb655072227a46d9113015aa0b0536c978a0",
+				"dweb:/ipfs/QmPdovuGufBbhpN2LY6MHPbYn4kEMhrg7r7SC2YeBHYk65"
+			]
+		}
+	},
+	"version": 1
+}
